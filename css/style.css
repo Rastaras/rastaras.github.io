@@ -28,19 +28,7 @@ a {
     justify-content: space-between;
     align-items: center;
 }
-.logo h1 span {
-    display: block;
-    font-weight: 400;
-}
-.logo .info p {
-    font-weight: bold;
-    margin-bottom: 10px;
-    display:inline-block;
-    margin-right:15px;
-}
-.logo .info span {
-    font-weight: normal;
-}
+
 /* logo block */
 .logo h1 {
     font-family: Arial, sans-serif;
@@ -78,6 +66,12 @@ a {
 }
 
 /* main block*/
+.main photo{
+    weight:200px;
+    height:200px;
+    overflow:hidden;
+
+}
 .technical img{
     width: 200px;
     height: 200px;
@@ -102,6 +96,31 @@ h2{
     margin-right: 20px;
 }
 .psychological img {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    float: left;
+    margin-right: 20px;
+}
+.development img{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    float: left;
+    margin-right: 20px;
+}
+
+.seo img {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    float: left;
+    margin-right: 20px;
+}
+.reklama img {
     width: 200px;
     height: 200px;
     overflow: hidden;

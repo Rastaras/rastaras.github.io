@@ -29,8 +29,8 @@
           <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="337">
-                  <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
+                <state relative-caret-position="456">
+                  <caret line="54" selection-start-line="54" selection-end-line="56" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -127,15 +127,15 @@
       <workItem from="1530720032264" duration="5259000" />
       <workItem from="1530725475827" duration="258000" />
       <workItem from="1530725993571" duration="166000" />
-      <workItem from="1530786574730" duration="1575000" />
+      <workItem from="1530786574730" duration="2614000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7258000" />
+    <option name="totallyTimeSpent" value="8297000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12859304" />
@@ -239,8 +239,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
+        <state relative-caret-position="456">
+          <caret line="54" selection-start-line="54" selection-end-line="56" selection-end-column="1" />
         </state>
       </provider>
     </entry>

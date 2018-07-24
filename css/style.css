@@ -1,57 +1,205 @@
-body{background: black}
-.wrapper{
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
 
-    margin: 0px auto;
-    background: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
-.inner{
-    width: 1000px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    background: white;
+a{
+    text-decoration: none;
+    color: black;
 }
-.block{
-    width:400px;
-    height: 400px;
+.social{
+    background: #0054a4;
+    display: flex;
+    justify-content: flex-end;
+}
+.main-wrapper{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.wrapper{
     margin: 20px;
+    max-width: 1200px;
+}
+.logo{
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: 10;
+}
+body{
+    /*font-family: 'Roboto Slab', serif;*/
+    font:
+}
+h1{
+    font-family: 'Lobster', sans-serif;
+    margin: 20px;
+}
+h2{
+    font-family: 'Lobster', sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+h3{
+    font-family: 'Lobster', sans-serif;
+}
+
+span{
+    font-family: 'Lobster', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color:#0054a4;
+}
+button{
+    margin: 20px;
+}
+/*header*/
+.social ul{
+    display: flex;
+    margin: 10px;
+}
+.social a{
+
+    margin: 10px;
+}
+.menu .button_1{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+/*menu*/
+.horizontal{
+    display: flex;
+    justify-content: flex-end;
+}
+.menu .tabsArrow{
+    margin-left: 10px;
+}
+.menu{
+    display: flex;
+    justify-content: flex-end;
+}
+nav{
+    height: 30px;
+}
+.menu li a{
+    display: block;
+    padding: 10px;
+}
+/*slider*/
+.slider{
+   /* height: 300px;*/
+    position: relative;
+    margin-top: 30px;
+}
+.items{
+    display: flex;
+    justify-content: space-between;
+}
+.slider_text{
+    position:absolute;
+    top: 200px;
+    left: 0;
+    display: block;
+    max-width: 300px;
+}
+.buttonBlock{
+    display: flex;
+
+}
+.button{
+    background: red;
+    width: 160px;
+    height: 35px;
+    text-align: center;
+    border-radius: 30px;
+    color: white;
+    margin: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.button_3{
+    background: #0054a4;
+
+}
+
+/* блок трех плашечек*/
+.blockThreeTabs{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    position: relative;
+    margin-top:-146px;
+}
+.Tabs{
+    background: #0d802a;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    color:white;
+
+}
+.tabsHeader{
+    display: flex;
+    justify-content: space-between;
+}
+.tabsTextInner{
+    font-size:10px;
+}
+.icon{
+    height: 70px;
+    width: 130px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: #0d802a;
+    margin-right: 20px;
+}
+.pink .icon{
+    color:#f15b4f;
+}
+.blue .icon{
+    color:#0054a4;
+}
+.line{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+
+}
+.pink{
+    background: #f15b4f;
+}
+.blue{
+    background: #0054a4;
+}
+.main2{
+    max-width: 1200px;
     position: relative;
 
 }
-.red{
-    background: red;
-    left: 0px;
-    top: 100px;
+.line{
+    width: 63px;
+    height: 2px;
+    background-color: white;
 }
-.green{
-    background: green;
-    left: -150px;
-    top: 150px;
-}
-.yellow{
-    background: yellow;
-    left: -100px;
-
-}
-.blue{
-    background: blue;
-    top: -50px;
-
-
-}
-.circle{
-    border-radius: 50%;
-    background: gray;
-    width:150px;
-    height: 150px;
-    top:200px;
-    left: 200px;
+.items{
+    text-align: center;
 }
 
-.block:hover {
-    z-index: 100;
+.tabsText{
+    display: flex;
+    flex-direction: column;
+}
+.items img{
+    margin-top: 50px;
 }
